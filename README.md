@@ -6,9 +6,7 @@ A React-based visual calculator that allows users to chain mathematical function
 
 - React 18.3
 - TypeScript
-- Vite
 - Tailwind CSS
-- ESLint
 
 ## Project Structure
 
@@ -49,5 +47,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-```markdown
