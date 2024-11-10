@@ -54,7 +54,7 @@ export const FunctionCard: React.FC<FunctionCardProps> = ({
           </label>
           <select
             disabled
-            className='w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-50 cursor-pointer font-medium text-xs text-gray-700'
+            className='w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-50 cursor-not-allowed font-medium text-xs text-gray-700'
             value={nextFunction || ''}
             onChange={(e) => {
               onNextFunctionChange(
